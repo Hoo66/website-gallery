@@ -1,0 +1,100 @@
+@import './StyleVariables.scss';
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  margin: 0 0 120px 0;
+  padding-top: 80px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+h1, h2, h3 {
+  margin-top: 40px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 600px) {
+    font-size: 28px;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  @media screen and (max-width: 600px) {
+    font-size: 1.6rem;
+  }
+}
+
+h3 {
+  font-size: 1.25rem;
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
+}
+
+input,
+textarea {
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 20px auto;
+  text-align: left;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+}
+
+button {
+  border: 1px solid #ccc;
+  padding: 2px 12px;
+  margin-top: 40px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #eee;
+  background-color: $accentColor;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+a {
+  text-decoration: none;
+}

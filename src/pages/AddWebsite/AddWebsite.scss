@@ -1,0 +1,83 @@
+.add-website {
+  padding-bottom: 80px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+  label {
+    display: block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  select {
+    margin-top: 10px;
+    padding: 4px 10px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    width: 300px;
+    }
+
+  input {
+    margin: 10px 0;
+  }
+  textarea {
+    width: 100%;
+  }
+  input[type="file"] {
+    @media screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
+  }
+  span {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+
+  .form-img-preview {
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    height: 135px;
+    background-color: #eee;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    text-align: center;
+    
+    &:after {
+      content: "Image Preview";
+      width: 100%;
+      line-height: 150px;
+    }
+  
+    img {
+      width: 100%;
+      object-fit: contain;
+      object-position:50% 50%
+    }
+    
+  }
+  
+  .alert-space {
+    height: 40px;
+    color: #f00;
+  }
+
+  button {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  button:disabled {
+    background-color: rgb(219, 211, 211);
+    border-color: rgb(217, 212, 212);
+    color: #fff;
+    opacity: 1;
+  }
+}
+
+

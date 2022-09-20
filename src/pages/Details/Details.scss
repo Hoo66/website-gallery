@@ -1,0 +1,43 @@
+.details {
+  margin-bottom: 100px;
+  h2 {
+    margin-bottom: 20px;
+  }
+  a {
+    text-decoration: underline;
+    text-decoration-color: #777;
+    text-underline-offset: 4px;
+    
+  }
+  p {
+    text-align: center;
+  }
+
+
+  img {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1200px;
+    object-fit: cover;
+  }
+  
+  p.description {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  .site-link {
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin: 40px auto 80px;
+  }
+}
+
+

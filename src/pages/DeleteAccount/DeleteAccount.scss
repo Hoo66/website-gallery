@@ -1,0 +1,15 @@
+.delete-account {
+  width: 90%;
+
+  .back-to-mypage {
+    display: block;
+    margin-top: 20px;
+    width: fit-content;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: #aaa;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
