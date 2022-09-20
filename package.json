@@ -1,6 +1,7 @@
 {
   "name": "website-gallery",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "firebase": "^9.9.3",
