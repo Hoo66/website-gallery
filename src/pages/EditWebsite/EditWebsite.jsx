@@ -169,16 +169,16 @@ export const EditWebsite = () => {
               onChange={handleSelect} 
               required
             >
-              <option value="javascript" selected={data.techs.includes("javascript")}>JavaScript</option>
-              <option value="typescript" selected={data.techs.includes("typescript")}>TypeScript</option>
-              <option value="react" selected={data.techs.includes("react")}>React</option>
-              <option value="vue" selected={data.techs.includes("vue")}>Vue</option>
-              <option value="ruby" selected={data.techs.includes("ruby")}>Ruby</option>
-              <option value="rubyonrails" selected={data.techs.includes("rubyonrails")}>Ruby on Rails</option>
-              <option value="firebase" selected={data.techs.includes("firebase")}>Firebase</option>
-              <option value="python" selected={data.techs.includes("python")}>Python</option>
-              <option value="php" selected={data.techs.includes("php")}>PHP</option>
-              <option value="mongodb" selected={data.techs.includes("mongodb")}>MongoDB</option>
+              <option value="JavaScript" selected={data.techs.includes("JavaScript")}>JavaScript</option>
+              <option value="TypeScript" selected={data.techs.includes("TypeScript")}>TypeScript</option>
+              <option value="React" selected={data.techs.includes("React")}>React</option>
+              <option value="Vue" selected={data.techs.includes("Vue")}>Vue</option>
+              <option value="Ruby" selected={data.techs.includes("Ruby")}>Ruby</option>
+              <option value="Ruby on Rails" selected={data.techs.includes("Ruby on Rails")}>Ruby on Rails</option>
+              <option value="Firebase" selected={data.techs.includes("Firebase")}>Firebase</option>
+              <option value="Python" selected={data.techs.includes("Python")}>Python</option>
+              <option value="PHP" selected={data.techs.includes("PHP")}>PHP</option>
+              <option value="MongoDB" selected={data.techs.includes("MongoDB")}>MongoDB</option>
               <option value="other" selected={data.techs.includes("other")}>その他</option>
             </select>
           </div>
