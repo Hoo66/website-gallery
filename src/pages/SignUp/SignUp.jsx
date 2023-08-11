@@ -38,6 +38,7 @@ export const SignUp = () => {
             id="name" 
             value={name} 
             onChange={handleChange} 
+            required
           />
         </div>
         <div className="input-div">
@@ -47,6 +48,7 @@ export const SignUp = () => {
             id="email" 
             value={email} 
             onChange={handleChange} 
+            required
           />
         </div>
         <div className="input-div">
@@ -56,6 +58,7 @@ export const SignUp = () => {
             id="password" 
             value={password} 
             onChange={handleChange} 
+            required
           />
           <img src={visibilityIcon} alt="show password" onClick={() => setShowPassword(prev => !prev)} />
         </div>
